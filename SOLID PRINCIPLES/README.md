@@ -6,7 +6,8 @@
 **I**nterface Segregation Principle (ISP)<br>
 **D**ependency Injection Principle (DIP)
 
-| Tip   | Açıklama                                                                                                                     |
+![Logo](https://github.com/erdemgencoglu/DESIGN-PATTERNS/img/single-responsibility.webp)
+| Tip | Açıklama |
 | :---- | :--------------------------------------------------------------------------------------------------------------------------- |
 | `SRP` | Bir işi yapabiliyor olmak o işi yapmak zorunda olduğunuzu göstermez.<br>Bir metot birden fazla farklı işi barındırmamalıdır. |
 
@@ -14,18 +15,14 @@
 | :---- | :----------------------------------------------------------- |
 | `OCP` | Yazılan kod **gelişime** açık **değişime** kapalı olmalıdır. |
 
-| Tip   | Açıklama                                                     |
-| :---- | :----------------------------------------------------------- |
-| `LSP` | Yazılan kod **gelişime** açık **değişime** kapalı olmalıdır. |
+| Tip   | Açıklama                                                                                                |
+| :---- | :------------------------------------------------------------------------------------------------------ |
+| `LSP` | Bir class inherit ettiği classın tüm özelliklerini kullanmak (taşımak) ve yerine geçebilmek zorundadır. |
 
-| Tip   | Açıklama                                                                                                          |
-| :---- | :---------------------------------------------------------------------------------------------------------------- |
-| `ISP` | Bir classın inherit (Kalıtım) edildiği tüm classlar bu inherit edilen clasın<br> tüm özelliklerini kullanmalıdır. |
+| Tip   | Açıklama                                                                                                                                                                     |
+| :---- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ISP` | Bir interface içinde tanımlanan metot bu interface in inherit edildiği hiç bir yerde kullanılmıyorsa isb ihlali vardır. Interface kullanılmayacak fazla metot içermemelidir. |
 
-| Tip   | Açıklama                                                     |
-| :---- | :----------------------------------------------------------- |
-| `ISP` | Yazılan kod **gelişime** açık **değişime** kapalı olmalıdır. |
-
-| Tip   | Açıklama                                                     |
-| :---- | :----------------------------------------------------------- |
-| `DIP` | Yazılan kod **gelişime** açık **değişime** kapalı olmalıdır. |
+| Tip   | Açıklama                                                                      |
+| :---- | :---------------------------------------------------------------------------- |
+| `DIP` | Daha üst seviyedeki bir class alt seviyedeki bir class a bağımlı olmamalıdır. |

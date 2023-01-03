@@ -1,29 +1,16 @@
-package Problem;
+package Solution;
 
 public class TripInfoLogger {
 
-    public void LogToGermany(String log) {
-        new GermanyLogger().log(log);
-    }
-    //!!! bağımlı
-    public void LogToMemory(String log) {
-        new MemoryLogger().log(log);
+    ILogger iLogger;
+
+    public TripInfoLogger(ILogger iLogger) {
+        this.iLogger = iLogger;
     }
 
-
-    public class GermanyLogger {
-        public void log(String log) {
-            System.out.println("log sended");
-        }
+    public void Log(String log) {
+        iLogger.log(log);
     }
-    //!!! bağımlı
-    public class MemoryLogger {
-        public void log(String log) {
-            System.out.println("log sended");
-        }
-    }
-
-
 }
 
 

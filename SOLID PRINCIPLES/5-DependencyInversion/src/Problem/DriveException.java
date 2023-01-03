@@ -1,2 +1,4 @@
-package Problem;public class DriveException {
+package Problem;
+
+public class DriveException extends Exception{
 }

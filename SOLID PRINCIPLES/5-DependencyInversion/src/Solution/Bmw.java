@@ -1,4 +1,4 @@
-package Problem;
+package Solution;
 
 
 public class Bmw extends BaseCar implements IMailSendable, ISmsSendable {

@@ -1,9 +1,9 @@
-package Problem;
+package Solution;
 
 
 import java.util.List;
 
-public class MercedesBenz extends BaseCar implements IMailSendable,IMailSebdableDrivers {
+public class MercedesBenz extends BaseCar implements IMailSendable, IMailSebdableDrivers {
     @Override
     public double calculatePerKm() {
         return 2;

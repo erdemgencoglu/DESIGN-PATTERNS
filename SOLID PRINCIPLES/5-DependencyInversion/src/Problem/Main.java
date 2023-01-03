@@ -1,15 +1,25 @@
-package Solution;
+package Problem;
+
 public class Main {
     public static void main(String[] args) {
         /*
-            1- Bir interface inherit edildiği yerde kullanılmayan soyut metotlar içermemelidir.
-            2- Örnek olarak mail atma interface ine ilgili kullanıcılara mail atan bir özellik ekleyelim
-            3- Bmw ve Mercedes classları kullanıcı bazlı mail gönderme işlemini her 2 sınıfta şuan gerçekleştiriyor
-            4- Fakat ileride mercedes bu özelliği kaldırır ise Bmw kullanmış,Mercedes kullanmamış olacaktır.
-            5- Interface segragation ihlali olmuş olur bu durumda bu ihlale sebeb olan iş ayrı interface olarak yazılır ve prensibe uygun hale getirilmiş olur
+            1- Bir loglalama mekanizmamız olsun.Araç için alınan hataları Almanyaya göndersi  ->TripInfoLogger
+            2- İleriki bir zamanda araca içine çip yerleştirdik bunun üzerine loglansın özelliği istendi.
+            3- Bu durumda TripInfoLogger clasında yenir bir class ve loglama metodu tanımlamış olmamız gerekecek ve Üst sınıf içinde bulunan bir alt sınıfa bağımlı (MemoryLogger ve oluşacak diğer sınflar) olacaktır.
+            4- Bu tarz durumlarda abstraction kullanılır.(Interfaceler vb.)
         */
-        FuelCostCalculator fuelCostCalculator=new FuelCostCalculator();
-        System.out.println(fuelCostCalculator.calculate(new MercedesBenz()));
-        System.out.println(fuelCostCalculator.calculate(new Bmw()));
+        try {
+            MercedesBenz ms = new MercedesBenz();
+            ms.go();
+            ms.stop();
+        } catch (DriveException exception) {
+            TripInfoLogger tr = new TripInfoLogger();
+            tr.LogToGermany(exception.getMessage());
+        } catch (TierException exception) {
+            TripInfoLogger tr = new TripInfoLogger();
+            tr.LogToMemory(exception.getMessage());
+        }
     }
+
+
 }

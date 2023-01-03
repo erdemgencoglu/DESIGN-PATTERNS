@@ -1,4 +1,4 @@
-package Solution;
+package Problem;
 
 public abstract class BaseCar {
 
@@ -6,7 +6,8 @@ public abstract class BaseCar {
 
     public abstract double calculatePerKm();
 
-
+    public void go() throws DriveException,TierException{};
+    public void stop(){};
     public double getTripKm() {
         return tripKm;
     }

@@ -1,2 +1,4 @@
-package Problem;public class TierException {
+package Problem;
+
+public class TierException extends Exception{
 }

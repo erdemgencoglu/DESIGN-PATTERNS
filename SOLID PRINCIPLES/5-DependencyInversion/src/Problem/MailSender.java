@@ -1,4 +1,4 @@
-package Solution;
+package Problem;
 
 public class MailSender {
     public void send(){

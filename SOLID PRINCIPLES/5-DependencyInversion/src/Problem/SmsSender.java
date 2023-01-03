@@ -1,4 +1,4 @@
-package Solution;
+package Problem;
 
 public class SmsSender {
     public void send(){

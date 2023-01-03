@@ -1,7 +1,5 @@
-package Solution;
+package Problem;
 
-
-import java.util.List;
 
 public class Bmw extends BaseCar implements IMailSendable, ISmsSendable {
     @Override

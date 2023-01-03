@@ -1,4 +1,4 @@
-package Solution;
+package Problem;
 
 
 import java.util.List;

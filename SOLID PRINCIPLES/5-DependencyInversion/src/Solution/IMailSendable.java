@@ -1,5 +1,4 @@
-package Problem;
-
+package Solution;
 
 
 public interface IMailSendable {
