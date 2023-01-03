@@ -6,7 +6,7 @@
 **I**nterface Segregation Principle (ISP)<br>
 **D**ependency Injection Principle (DIP)
 
-![Logo](https://github.com/erdemgencoglu/DESIGN-PATTERNS/img/single-responsibility.png)
+![alt text](https://github.com/erdemgencoglu/DESIGN-PATTERNS/blob/main/img/single-responsibility.png?raw=true)
 | Tip | Açıklama |
 | :---- | :--------------------------------------------------------------------------------------------------------------------------- |
 | `SRP` | Bir işi yapabiliyor olmak o işi yapmak zorunda olduğunuzu göstermez.<br>Bir metot birden fazla farklı işi barındırmamalıdır. |
