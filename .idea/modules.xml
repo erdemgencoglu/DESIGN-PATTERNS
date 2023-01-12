@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SOLID PRINCIPLES/1-SingleResponsibilty/1-SingleResponsibilty.iml" filepath="$PROJECT_DIR$/SOLID PRINCIPLES/1-SingleResponsibilty/1-SingleResponsibilty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID PRINCIPLES/2-Open-CloseResponsibility/2-Open-CloseResponsibility.iml" filepath="$PROJECT_DIR$/SOLID PRINCIPLES/2-Open-CloseResponsibility/2-Open-CloseResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID PRINCIPLES/3-LiskovSubstitutionPrinciple/3-LiskovSubstitutionPrinciple.iml" filepath="$PROJECT_DIR$/SOLID PRINCIPLES/3-LiskovSubstitutionPrinciple/3-LiskovSubstitutionPrinciple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID PRINCIPLES/4-InterfaceSegregationPrinciples/4-InterfaceSegregationPrinciples.iml" filepath="$PROJECT_DIR$/SOLID PRINCIPLES/4-InterfaceSegregationPrinciples/4-InterfaceSegregationPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID PRINCIPLES/5-DependencyInversion/5-DependencyInversion.iml" filepath="$PROJECT_DIR$/SOLID PRINCIPLES/5-DependencyInversion/5-DependencyInversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DESIGN-PATTERNS.iml" filepath="$PROJECT_DIR$/.idea/DESIGN-PATTERNS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DESIGN PATTERNS/1-CREATIONAL PATTERNS/Factory_Pattern/Factory_Pattern.iml" filepath="$PROJECT_DIR$/DESIGN PATTERNS/1-CREATIONAL PATTERNS/Factory_Pattern/Factory_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DESIGN PATTERNS/1-CREATIONAL PATTERNS/Singleton_Pattern/Singleton_Pattern.iml" filepath="$PROJECT_DIR$/DESIGN PATTERNS/1-CREATIONAL PATTERNS/Singleton_Pattern/Singleton_Pattern.iml" />
+    </modules>
+  </component>
+</project>
