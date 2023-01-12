@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PhoneFactory factory=new PhoneFactory();
+
+        Phone iphone=factory.PhoneFactory(PhoneFactory.PhoneModel.IPHONE);
+
+        iphone.name();
     }
 }
